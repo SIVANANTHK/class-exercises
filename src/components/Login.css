@@ -1,0 +1,45 @@
+.login-container, .signup-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2, .signup-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-container form, .signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input, .signup-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border 0.2s ease; /* Add transition for smooth effect */
+}
+
+.login-container input:hover, .signup-container input:hover {
+    border: 2px solid #333; /* Make the border thicker on hover */
+}
+
+.login-container button, .signup-container button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover, .signup-container button:hover {
+    background-color: #555;
+}

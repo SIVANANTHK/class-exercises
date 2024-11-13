@@ -1,0 +1,162 @@
+/* Base Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #7e564c, #89674d);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #ff7e5f;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #ff7e5f;
+  color: white;
+}
+
+/* Featured Section */
+.featured-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.featured-section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.featured-dishes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dish {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dish img:hover {
+  transform: scale(1.05);
+}
+
+.dish p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Menu Section */
+.menu-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.menu-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.menu-card h4 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.menu-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.menu-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Staff Section */
+.staff-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.staff-section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.staff-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.staff-member {
+  margin: 10px;
+  text-align: center;
+}
+
+.staff-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.staff-member img:hover {
+  transform: scale(1.1);
+}
+
+.staff-member p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
